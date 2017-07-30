@@ -159,6 +159,31 @@ entries:
       output: web
 
       subfolders:
+      - title: FAQs for Collections
+        output: web
+        subfolderitems:
+
+        - title: "FAQ Collection Discovery"
+          url: /collection_extensions_faq_discovery.html
+          output: web
+
+        - title: "FAQ Collection Metadata"
+          url: /collection_extensions_faq_metadata.html
+          output: web
+
+        - title: "FAQ Collection Nesting"
+          url: /collection_extensions_faq_nesting.html
+          output: web
+
+        - title: "FAQ Collection Participants"
+          url: /collection_extensions_faq_participants.html
+          output: web
+
+        - title: "FAQ Collections and Admin Sets "
+          url: /collection_extensions_faq_admin_sets.html
+          output: web
+
+      subfolders:
       - title: How Do I Customize Metadata?
         output: web
         subfolderitems:
