@@ -2,7 +2,7 @@
 title: "FAQ - Collection Discovery"
 keywords: Discovery, Collection, FAQ
 categories: How to Do All the Things
-permalink: collection_extensions_faq_discoverty.html
+permalink: collection_extensions_faq_discovery.html
 folder: samvera/how-to/collection_extensions/hyrax_2.0/faq_discovery.md
 sidebar: home_sidebar
 tags: [development_resources]

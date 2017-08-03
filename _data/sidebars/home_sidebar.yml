@@ -154,11 +154,6 @@ entries:
           url: /participants.html
           output: web
 
-    - title: How Do I Add a New Work Type?
-      url: /add-new-work-type.html
-      output: web
-
-      subfolders:
       - title: FAQs for Collections
         output: web
         subfolderitems:
@@ -182,6 +177,10 @@ entries:
         - title: "FAQ Collections and Admin Sets "
           url: /collection_extensions_faq_admin_sets.html
           output: web
+
+    - title: How Do I Add a New Work Type?
+      url: /add-new-work-type.html
+      output: web
 
       subfolders:
       - title: How Do I Customize Metadata?
