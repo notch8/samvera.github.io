@@ -27,15 +27,11 @@ Yes, for public users.  For logged in users, collections will show up in search 
 
 ### Where do I configure discoverability of a collection?
 
-For an individual collection, you set discoverability on the new/edit form for the collection on the Discoverable tab.
-
-TODO: What is the actual name of the tab?
+For an individual collection, you set discoverability on the new/edit form for the collection on the Discovery tab.
 
 ### If a collection type is NOT discoverable, can I set the visibility to Public?
 
 No, if the collection type of a collection has discoverable=false, the new/edit form will not show the Discoverability tab.  All collections of this type will have visibility=Private.
-
-TODO: Should users be able to set Private or Organization if discoverable=false?
 
 ### Why can't I set a collection to Public?
 
@@ -43,12 +39,8 @@ Whether a collection can be set to discoverable is determined by the collection 
 
 ### Where do I configure discoverability of a collection type?
 
-Dashboard -> Settings -> Collection Types -> new/edit a collection
+Dashboard -> Settings -> Collection Types -> new/edit a collection type
 
 ### Can I change the discoverability setting of the collection type?
 
-Yes and no... This setting is per collection type.  Once a collection of a type is created, the Settings configurations, which includes discoverability, are not modifiable.  Up to that point, you can change the settings, including discoverability.
-
-TODO: What is the actual name of the configuration?
-
-In the future, this limitation for discoverability could be laxed if determined to be a priority.  In this case, existing collections will continue to be Private until edited individually to change the discoverability.  New collections will have the option to be set to Public.
+Yes and no... This setting is per collection type.  Once a collection of a type is created, the Settings configurations are not modifiable.  This includes includes the Discoverable setting.  Up to that point that you create a collection of that type, you can change the Settings, including Discoverable.
