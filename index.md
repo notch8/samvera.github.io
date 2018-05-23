@@ -1,6 +1,6 @@
 ---
-title: A Guide For The Perplexed Samvera Developer
-a-z: [A Guide For The Perplexed Samvera Developer]
+title: A Guide For The Samvera Community
+a-z: [A Guide For The Samvera Community]
 keywords: sample homepage
 tags: [getting_started]
 sidebar: home_sidebar
@@ -10,7 +10,10 @@ toc: false
 <div class="row">
    <div class="col-lg-12">
       <h2 class="page-header">Knowledge Base Categories</h2>
-       <h4>Note: This site is under active development. Some pages do not yet contain content, and are either in creation or awaiting approval. If there's a page you'd like to see prioritized, create an <a href="https://github.com/samvera/samvera.github.io/issues/new">issue</a>. Pages that contain full content have been reviewed and approved of.</h4>
+
+      <a href="https://github.com/samvera/samvera.github.io" class="btn btn-lg btn-primary" target="_blank">Contribute New Documentation</a>
+
+      <ul class='info'><li>Note: This site is under active development. If there's a content you'd like to see here, or if you notice errors, please create an <a href="https://github.com/samvera/samvera.github.io/issues/new">issue</a>. All content has been reviewed and approved.</li></ul>
    </div>
    <div class="col-md-3 col-sm-6">
        <div class="panel panel-default text-center">
@@ -52,7 +55,7 @@ toc: false
            </div>
            <div class="panel-body">
                <h4>Running in Production</h4>
-               <p>How to run parts of the solr stack in production.</p>
+               <p>How to run parts of the Samvera stack in production.</p>
                <a href="tag_running_in_production.html" class="btn btn-primary">Learn More</a>
            </div>
        </div>

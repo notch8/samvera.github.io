@@ -425,6 +425,11 @@ ul#mysidebar {
     border-top:1px solid whitesmoke;
     padding-left:10px;
 }
+
+.navbar-inverse{
+  background-color: #982621 !important;
+  border-color: #015CAE;
+}
 /* end sidebar */
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -1283,4 +1288,7 @@ a.atoz_term:hover {
     text-decoration:underline;
     font-weight: bold;
     font-size: 12px;
+}
+ul.info {
+  margin: 20px 0px;
 }

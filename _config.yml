@@ -4,10 +4,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Hyrax Developer Knowledge Base
+topnav_title: Samvera Community Knowledge Base
 # this appears on the top navigation bar next to the home button
 
-site_title: Hyrax Developer Knowledge Base
+site_title: Samvera Community Knowledge Base
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Samvera Community
@@ -24,10 +24,15 @@ host: 127.0.0.1
 
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
 exclude:
-  - .idea/
-  - .gitignore
+  - vendor
+  - spec
+  - README.md
+  - Rakefile
+  - update.sh
+  - Gemfile*
+  - CONTRBUTING.md
+  - generated
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: Jekyll documentation theme
@@ -100,8 +105,6 @@ sidebars:
 
 description: ""
 # the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
 url: http://samvera.github.io
 production_url : https://samvera.github.io
 BASE_PATH : https://samvera.github.io
@@ -121,3 +124,8 @@ a_z:
       - 'sidebar: home_sidebar'
 
 theme: jekyll-theme-minimal
+
+# needed for sitemap.xml file only
+url: http://samvera.github.io
+gems:
+  - jekyll-sitemap
